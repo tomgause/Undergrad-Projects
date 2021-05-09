@@ -1,0 +1,19 @@
+program Final ( 
+
+def cube ( x ) ( 
+	if x % 2 = 1 then x := x * x * x 
+	return x 
+) ; 
+
+def loopPrint ( x ) ( 
+	while x > 0 do ( 
+		x := x - 1 ; 
+		print ( x ) 
+	) 
+	return 
+) ; 
+
+print ( call cube ( 5 ) ) ; 
+print ( call loopPrint ( 5 ) ) 
+
+) endprogram 
